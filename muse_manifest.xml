@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dach-system.github.io" resolutions="1x,2x" timestamp="1577616578363">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dach-system.github.io" resolutions="1x,2x" timestamp="1577617456475">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="4073454559" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="4256404366" ref="index"/>
-    <file name="index.css" crc="124107607" ref="index"/>
-    <file name="nomq_index.css" crc="3836397261" ref="index"/>
+    <file name="index.css" crc="3805043988" ref="index"/>
+    <file name="nomq_index.css" crc="3865414202" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -212,5 +212,5 @@
     <file name="u6136-6_2x6.png" crc="103852644" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4076919837" seo="true" mt="1577615860341" redirect="true"/>
+  <file name="index.html" crc="416227698" seo="true" mt="1577617430190" redirect="true"/>
 </manifest>
