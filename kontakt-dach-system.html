@@ -17,12 +17,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Kontakt Dach-System</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3890382999"/>
-  <link rel="stylesheet" type="text/css" href="css/kontakt-dach-system.css?crc=3894154290" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3977567196"/>
+  <link rel="stylesheet" type="text/css" href="css/kontakt-dach-system.css?crc=4197454418" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=217137982"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_kontakt-dach-system.css?crc=125899318" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_kontakt-dach-system.css?crc=3819493472" id="nomq_pagesheet"/>
   <![endif]-->
     <!--custom head HTML-->
   <style type="text/css"> html,body{ overflow-x:hidden; } </style>
@@ -44,7 +44,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <a class="nonblock nontext transition clearfix grpelem" id="u245-4" href="us%c5%82ugi-dach-system.html"><!-- content --><p id="u245-2">USŁUGI</p></a>
        <a class="nonblock nontext MuseLinkActive transition clearfix grpelem" id="u254-4" href="kontakt-dach-system.html"><!-- content --><p id="u254-2">KONTAKT</p></a>
       </div>
-      <a class="nonblock nontext museBGSize grpelem shared_content" id="u207" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u207_content"><!-- content --></a>
+      <a class="nonblock nontext grpelem shared_content" id="u207" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u207_content"><!-- content --></a>
      </div>
      <div class="clearfix colelem shared_content" id="pu12072" data-content-guid="pu12072_content"><!-- group -->
       <div class="museBGSize grpelem shared_content" id="u12072" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u12072_content"><!-- content --></div>
@@ -72,29 +72,130 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        <p id="u12482-22">596-161-51-36</p>
       </div>
       <div class="grpelem shared_content" id="u25127" data-content-guid="u25127_content"><!-- custom html -->
-       <form
-  action="https://formspree.io/FORM_ID"
-  method="POST"
->
-  <label>
-    Your Name:
-    <input type="text" name="name">
-  </label>
-  <label>
-    Your Email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
-  <input type="submit" value="Send">
-</form>
+       <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/maciej.chomiak@o2.pl" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">NAZWA / IMIĘ</label>
+    <input type="text" name="name" id="Full Name" placeholder="..." required="">
+    <label for="email-address">E-MAIL</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="..." required="">
+    <label for="message">WIADOMOŚĆ</label>
+    <textarea rows="5" name="message" id="message" placeholder="..." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+  <input type="submit" value="WYŚLIJ">
+</form><style>/* reset */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: .825em;
+  margin-bottom: .5em;
+  padding-top: .2em;
+  display: flex;
+  align-items: baseline;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1em;
+  margin-bottom: 1.5em;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+</style>
       </div>
      </div>
     </div>
     <div class="verticalspacer" data-offset-top="1177" data-content-above-spacer="1177" data-content-below-spacer="399" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-    <a class="nonblock nontext museBGSize grpelem shared_content" id="u9946" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u9946_content"><!-- content --></a>
+    <a class="nonblock nontext grpelem shared_content" id="u9946" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-content-guid="u9946_content"><!-- content --></a>
     <div class="clearfix grpelem shared_content" id="u12534-21" data-content-guid="u12534-21_content"><!-- content -->
      <p id="u12534-2">ADRES</p>
      <p id="u12534-3">&nbsp;</p>
@@ -129,13 +230,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="clearfix colelem temp_no_id" data-orig-id="pu24376"><!-- group -->
       <span class="grpelem placeholder" data-placeholder-for="u24376_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u12650_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u207_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u207_content"><!-- placeholder node --></span>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu12072_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu12330_content"><!-- placeholder node --></span>
     </div>
     <div class="verticalspacer" data-offset-top="1037" data-content-above-spacer="1037" data-content-below-spacer="364" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-    <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="u12534-21_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="u12552_content"><!-- placeholder node --></span>
    </div>
@@ -144,7 +245,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
     <span class="clearfix grpelem placeholder" data-placeholder-for="ppu24376_content"><!-- placeholder node --></span>
     <div class="verticalspacer" data-offset-top="957" data-content-above-spacer="957" data-content-below-spacer="483" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-    <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
+    <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="u12534-21_content"><!-- placeholder node --></span>
     <span class="clearfix grpelem placeholder" data-placeholder-for="u12552_content"><!-- placeholder node --></span>
    </div>
@@ -155,7 +256,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="clearfix colelem temp_no_id" data-orig-id="pu24376"><!-- group -->
       <span class="grpelem placeholder" data-placeholder-for="u24376_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u12650_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u207_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u207_content"><!-- placeholder node --></span>
       <span class="museBGSize grpelem placeholder" data-placeholder-for="u12072_content"><!-- placeholder node --></span>
       <span class="grpelem placeholder" data-placeholder-for="u12073_content"><!-- placeholder node --></span>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u12071-4_content"><!-- placeholder node --></span>
@@ -168,7 +269,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="verticalspacer" data-offset-top="1273" data-content-above-spacer="1272" data-content-below-spacer="627" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="clearfix grpelem" id="pu9946"><!-- column -->
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext colelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u12534-21_content"><!-- placeholder node --></span>
      <div class="clearfix colelem temp_no_id" data-orig-id="u12552"><!-- column -->
       <span class="nonblock nontext transition clearfix colelem placeholder" data-placeholder-for="u12490-4_content"><!-- placeholder node --></span>
@@ -190,7 +291,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppu24376"><!-- column -->
      <div class="clearfix colelem temp_no_id" data-orig-id="pu24376"><!-- group -->
       <span class="grpelem placeholder" data-placeholder-for="u24376_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext museBGSize grpelem placeholder" data-placeholder-for="u207_content"><!-- placeholder node --></span>
+      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u207_content"><!-- placeholder node --></span>
       <div class="clearfix grpelem shared_content" id="u15097" data-content-guid="u15097_content"><!-- group -->
        <a class="nonblock nontext transition clearfix grpelem" id="u15098-4" href="index.html"><!-- content --><p id="u15098-2">START</p></a>
        <a class="nonblock nontext transition clearfix grpelem" id="u15100-4" href="us%c5%82ugi-dach-system.html"><!-- content --><p id="u15100-2">USŁUGI</p></a>
@@ -204,9 +305,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <span class="grpelem placeholder" data-placeholder-for="u25127_content"><!-- placeholder node --></span>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="1195" data-content-above-spacer="1194" data-content-below-spacer="555" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="998" data-content-above-spacer="997" data-content-below-spacer="555" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu9946"><!-- column -->
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext colelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u12534-21_content"><!-- placeholder node --></span>
      <div class="clearfix colelem shared_content" id="u15154" data-content-guid="u15154_content"><!-- column -->
       <a class="nonblock nontext transition clearfix colelem" id="u15161-4" href="index.html"><!-- content --><p id="u15161-2">START</p></a>
@@ -221,7 +322,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="clearfix grpelem temp_no_id" data-orig-id="ppu24376"><!-- column -->
      <div class="clearfix colelem temp_no_id" data-orig-id="pu24376"><!-- group -->
       <span class="grpelem placeholder" data-placeholder-for="u24376_content"><!-- placeholder node --></span>
-      <a class="nonblock nontext museBGSize grpelem temp_no_id" href="index.html" data-orig-id="u207"><!-- content --><div class="fluid_height_spacer"></div></a>
+      <a class="nonblock nontext grpelem temp_no_id" href="index.html" data-orig-id="u207"><!-- content --><div class="fluid_height_spacer"></div></a>
       <span class="clearfix grpelem placeholder" data-placeholder-for="u15097_content"><!-- placeholder node --></span>
      </div>
      <span class="clearfix colelem placeholder" data-placeholder-for="pu12072_content"><!-- placeholder node --></span>
@@ -233,9 +334,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <span class="grpelem placeholder" data-placeholder-for="u25127_content"><!-- placeholder node --></span>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="1000" data-content-above-spacer="999" data-content-below-spacer="562" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="788" data-content-above-spacer="787" data-content-below-spacer="562" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu9946"><!-- column -->
-     <span class="nonblock nontext museBGSize colelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
+     <span class="nonblock nontext colelem placeholder" data-placeholder-for="u9946_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u12534-21_content"><!-- placeholder node --></span>
      <span class="clearfix colelem placeholder" data-placeholder-for="u15154_content"><!-- placeholder node --></span>
     </div>
