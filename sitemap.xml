@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://dach-system.github.io/index.html</loc>
-    <lastmod>2020-01-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://dach-system.github.io/us%C5%82ugi-dach-system.html</loc>
-    <lastmod>2020-01-04</lastmod>
+    <lastmod>2020-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://dach-system.github.io/kontakt-dach-system.html</loc>
-    <lastmod>2020-01-04</lastmod>
+    <lastmod>2020-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://dach-system.github.io/us%C5%82ugi-dach-system.html</loc>
+    <lastmod>2020-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -27,8 +27,8 @@ $form = array(
 		'unknown_method' => 'Nieznana metoda żądania serwera'
 	),
 	'email' => array(
-		'from' => '',
-		'to' => ''
+		'from' => 'maciej.chomiak@02.pl',
+		'to' => 'maciej.chomiak@02.pl'
 	),
 	'fields' => array(
 		'custom_U12347' => array(
@@ -56,6 +56,15 @@ $form = array(
 			'label' => 'Wiadomość',
 			'required' => false,
 			'errors' => array(
+			)
+		),
+		'custom_U20282' => array(
+			'order' => 4,
+			'type' => 'string',
+			'label' => 'Firma',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Pole „Firma” jest wymagane.'
 			)
 		)
 	)
